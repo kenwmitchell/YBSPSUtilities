@@ -3,7 +3,6 @@ function Get-YBSRandomPassword {
     param (
         [Parameter(HelpMessage="Number of characters in returned password.",ParameterSetName="NumberOfChars")]
         [Int]$NumberOfChars = 9
-       f 
     )
     
     begin {
